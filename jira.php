@@ -7,8 +7,8 @@ const STRING_FILE_JIRA		= "JIRA.txt";
 const STRING_FILE_SIGNL4	= "SIGNL4.txt";
 
 // Jira user data (e. g. your login email, and password). Assigns, and comments Jira issues.
-const STRING_JIRA_ADMIN 	= "JIRA-USER";
-const STRING_JIRA_PASSWORD 	= "JIRA-PASSWORD";
+const STRING_JIRA_ADMIN 	= "j201811@mailinator.com";
+const STRING_JIRA_PASSWORD 	= "JiraJira123[]";
 
 $aData = (array) json_decode(file_get_contents("php://input"));
 
